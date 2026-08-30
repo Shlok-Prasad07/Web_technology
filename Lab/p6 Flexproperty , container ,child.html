@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flex Container and Child</title>
+
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 200px;
+            background-color: lightgray;
+        }
+
+        .box {
+            flex: 1;
+            margin: 10px;
+            padding: 30px;
+            text-align: center;
+            background-color: skyblue;
+        }
+
+        .box2 {
+            flex: 2;
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Flex Container and Flex Child</h1>
+
+    <div class="container">
+        <div class="box">Box 1</div>
+        <div class="box box2">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+
+</body>
+</html>
