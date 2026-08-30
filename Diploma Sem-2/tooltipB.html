@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>tooltip</title>
+	<style type="text/css">
+			.tooltip{
+				background-color: blue;
+				display: inline-block;
+				color: white;
+			}
+		 .tooltiptext{
+			visibility: hidden;
+		}
+		.tooltip:hover .tooltiptext{
+			visibility: visible;
+			background-color: red;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	<div class="tooltip">hover me
+		<span class="tooltiptext">tooltip.text</span>
+	</div>
+</body>
+</html>

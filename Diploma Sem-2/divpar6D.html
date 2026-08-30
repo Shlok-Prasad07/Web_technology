@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>animation effects</title>
+	<style type="text/css">
+		.h{
+			height: 100px	;
+			width: 100px;
+			border: 1px solid red;
+			text-align: center;
+		}
+		.h{
+			animation-name: hello;
+			animation-duration: 1s;
+/*			animation-delay: 2s;*/
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+		}
+		@keyframes hello{
+			0%{ margin-left: 0px; margin-right:200px; background-color:yellow; }
+			100%{ margin-left: 200px; margin-right:0; background-color:green; }
+		}
+	</style>
+</head>
+<body>
+	<div class="h"></div>
+</body>
+</html>
