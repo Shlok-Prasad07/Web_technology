@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+
+    <header class="bg-gray-900 text-white">
+        <div class="max-w-7xl mx-auto px-5 py-4 flex items-center justify-between">
+
+            <h1 class="text-2xl font-bold">TechStore</h1>
+
+            <nav class="flex gap-6 items-center">
+
+                <a href="#" class="hover:text-blue-400">Home</a>
+
+                <div class="relative group">
+                    <button class="hover:text-blue-400">
+                        Categories
+                    </button>
+
+                    <div class="absolute left-0 top-full hidden group-hover:block
+                                bg-white text-gray-800 w-44 rounded shadow-lg mt-2">
+
+                        <a href="#" class="block px-4 py-3 hover:bg-gray-100">
+                            Mobiles
+                        </a>
+
+                        <a href="#" class="block px-4 py-3 hover:bg-gray-100">
+                            Laptops
+                        </a>
+
+                        <a href="#" class="block px-4 py-3 hover:bg-gray-100">
+                            Accessories
+                        </a>
+
+                    </div>
+                </div>
+
+                <a href="#" class="hover:text-blue-400">Offers</a>
+                <a href="#" class="hover:text-blue-400">About</a>
+                <a href="#" class="hover:text-blue-400">Contact</a>
+
+            </nav>
+
+            <button class="bg-blue-500 px-4 py-2 rounded hover:bg-blue-600">
+                Login
+            </button>
+
+        </div>
+    </header>
+
+    <div class="text-center py-16">
+        <h2 class="text-4xl font-bold text-gray-800">
+            Welcome to TechStore
+        </h2>
+        <p class="text-gray-600 mt-3">
+            Find the latest technology products at the best prices.
+        </p>
+    </div>
+
+</body>
+</html>
